@@ -8,7 +8,5 @@ namespace SCore.Data
 {
     public class Class1
     {
-
-
     }
 }
