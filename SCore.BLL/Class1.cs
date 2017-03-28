@@ -9,5 +9,7 @@ namespace SCore.BLL
     public class Class1
     {
 
+
+
     }
 }
