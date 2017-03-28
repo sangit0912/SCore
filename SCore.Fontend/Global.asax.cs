@@ -13,6 +13,7 @@ namespace SCore.Fontend
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
         }
     }
 }
