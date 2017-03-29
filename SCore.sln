@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{48278264-CE81-4E1C-AA64-8707176E96D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCore.Data", "SCore.Data\SCore.Data.csproj", "{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{F10D364B-38C3-421C-A87D-95ED4A35BBB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCore.BLL", "SCore.BLL\SCore.BLL.csproj", "{8B6784D7-2637-42B6-8A22-7EA9BF263705}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{F10D364B-38C3-421C-A87D-95ED4A35BBB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCore.Data", "SCore.Data\SCore.Data.csproj", "{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCore.Fontend", "SCore.Fontend\SCore.Fontend.csproj", "{D3008E73-9132-4EB6-A048-AB233B472DB8}"
 EndProject
@@ -19,14 +19,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B6784D7-2637-42B6-8A22-7EA9BF263705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B6784D7-2637-42B6-8A22-7EA9BF263705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B6784D7-2637-42B6-8A22-7EA9BF263705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B6784D7-2637-42B6-8A22-7EA9BF263705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3008E73-9132-4EB6-A048-AB233B472DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3008E73-9132-4EB6-A048-AB233B472DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3008E73-9132-4EB6-A048-AB233B472DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,8 +36,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0} = {48278264-CE81-4E1C-AA64-8707176E96D4}
 		{8B6784D7-2637-42B6-8A22-7EA9BF263705} = {48278264-CE81-4E1C-AA64-8707176E96D4}
+		{2094EB41-2B1B-482D-B3EF-A39ABB8EAAB0} = {48278264-CE81-4E1C-AA64-8707176E96D4}
 		{D3008E73-9132-4EB6-A048-AB233B472DB8} = {F10D364B-38C3-421C-A87D-95ED4A35BBB6}
 	EndGlobalSection
 EndGlobal
